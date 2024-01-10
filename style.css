@@ -1201,6 +1201,13 @@ blockquote.twitter-tweet p {
     text-align: left
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
 body {
     counter-reset: katexEqnNo mmlEqnNo
 }
@@ -1425,7 +1432,22 @@ h1 {
     margin-bottom: 24px
 }
 
-h2,h3,h4,h5,h6 {
+h2 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 48px 0 24px
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+h4,h5,h6 {
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
@@ -1564,6 +1586,14 @@ li {
     margin: 0
 }
 
+.override-height {
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 img {
     vertical-align: middle;
     max-width: 100%;
@@ -1627,9 +1657,9 @@ iframe {
 
 #logo img {
     position: absolute;
-    width: 48px;
+    height: 45px;
     top: 0;
-    left: -62px
+    left: -130px
 }
 
 /* #logo:hover {
@@ -1924,3 +1954,13 @@ input#search:focus {
 .hljs-strong {
     font-weight: 700
 }
+
+.column {
+    float: left;
+    width: 50%;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }

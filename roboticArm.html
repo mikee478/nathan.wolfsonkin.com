@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nathan Wolf-Sonkin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container header">
+        <div class="main">
+            <div id="logo">
+                <a href="index.html"><img src="NathanLogo.png" class="center"></a>
+                <a id="logo" href="index.html">Nathan Wolf-Sonkin</a>
+            </div>
+            <div class="nav">
+                <a href="projects.html" title="Projects">Projects</a>
+                <a href="resume.pdf" title="Resume" target="_blank">Resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="row" style="text-align:center">
+                <div class="column" >
+                    <img src="personalProjectImages/roboticArm/OptimalAnimation.gif" width="400" height="350" class="center" />
+                </div>
+                <div class="column">
+                    <img src="personalProjectImages/roboticArm/FeedbackAnimation.gif" width="400" height="350" class="center" />
+                </div>
+            </div>
+            <h3>3-Link Robotic Arm Simulation</h3>
+            <p>&emsp;&emsp;The 3-Link Robotic Arm, crafted and simulated in MATLAB, serves as a versatile model for
+                testing 
+                control algorithms. The model, validated through energy conservation, guarantees accurate results.
+                Trajectory generation, featuring cubic trajectories and differential flatness, enables precise
+                point-to-point movements.</p>
+
+            <p>&emsp;&emsp;The application of three controllers - proportional, feedforward + proportional, and
+                feedforward +
+                LQR - provides insights into the different controllers strengths and weaknesses. Figures and metrics
+                highlight the
+                feedforward + optimal controller's efficiency in achieving low error with optimal actuation.</p>
+
+            <p>&emsp;&emsp;Current efforts focus on adding inverse kinematics and real-time tracking capabilities to the
+                robotic arm. This enhancement will enable the robot to dynamically track and follow the mouse position
+                using inverse kinematics. Future plans involve leveraging my mechanical design background to create a
+                custom 3D-printed robotic arm, bringing these features to life in a physical embodiment.</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -3,19 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Projects - Nathan Wolf-Sonkin</title>
+    <title>Nathan Wolf-Sonkin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Nathan's Projects">
-    <meta name="twitter:card" content="summary">
+    <meta name="description">
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
     <div class="container header">
         <div class="main">
-            <a id="logo" href="/">
-                Nathan Wolf-Sonkin
-            </a>
+            <div id="logo">
+                <a href="index.html"><img src="NathanLogo.png" class="center"></a>
+                <a id="logo" href="index.html">Nathan Wolf-Sonkin</a>
+            </div>
             <div class="nav">
-                <a href="index.html" title="About">About</a>
                 <a href="projects.html" title="Projects">Projects</a>
                 <a href="resume.pdf" title="Resume" target="_blank">Resume</a>
             </div>
@@ -23,21 +25,129 @@
     </div>
     <div class="container">
         <div class="main">
-            <h1>Projects</h1>
+            <h3>Personal Projects</h3>
             <div>
-                <a href="&#x2F;may-papers-2019">May Papers</a>&nbsp;<span class="small">May 18, 2019</span>
+                <!-- FIRST ROW INCLUDES ROBOTARM AND VEHICLETRAJ -->
+                <div class="row" style="text-align:center">
+                    <div class="column">
+                        <a href="roboticArm.html"><img src="personalProjectImages/roboticArm/OptimalAnimation.gif"
+                                class="override-height" /></a>
+                        <br />
+                        3-Link Robotic Arm Simulation
+                    </div>
+                    <div class="column">
+                        <a href="vehicleTraj.html"><img src="personalProjectImages/trajGen/trajGen.gif"
+                                class="override-height" /></a>
+                        <br />
+                        Vehicle Trajectory Generation Model
+                    </div>
+                </div>
                 <br />
-                <a href="&#x2F;attention-as-matrix-multiplication">Multi-headed attention as matrix
-                    multiplication</a>&nbsp;<span class="small">May 13, 2019</span>
+                <!-- NEXT ROW CONSTAINS ROBOTARM INCLUDES VEHICALTRAJ AND APEX -->
+                <div class="row" style="text-align:center">
+                    <div class="column">
+                        <a href="autonomousMobileRobot.html"><img src="personalProjectImages/AMR/AMRLocalization.png"
+                                class="override-height" /></a>
+                        <br />
+                        Autonomas Mobile Robot (SLAM)
+                    </div>
+                    <div class="column">
+                        <a href="turducken.html"><img src="personalProjectImages/Turducken/Turducken2.gif"
+                                class="override-height" /></a>
+                        <br />
+                        FEA Turducken Cooking Simulation
+                    </div>
+                </div>
+                <!-- <br /> -->
+                <!-- FIRST ROBOTARM INCLUDES TENSEGRITY TABLE-->
+                <!-- <div class="row" style="text-align:center">
+                    <div class="column">
+                        <a href="tensegrityTable.html"><img src="personalProjectImages/tensegrityTable.png"
+                                class="override-height" /></a>
+                        <br />
+                        Tensegrity Table
+                    </div>
+                </div> -->
+            </div>
+            <br />
+            <h3 style="line-height: 5px">Professional Work</h3>
+            <a href="https://coreswx.com/" target="_blank"><img src="coreImages/CoreLogo.png" style="height: 120px;"
+                    class="override-height" /></a>
+            <br />
+            <div>
+                <!-- FIRST ROW INCLUDES ALPHA_V AND APEX -->
+                <div class="row" style="text-align:center">
+                    <div class="column">
+                        <a href="alphaV.html"><img src="coreImages/alphaV.png" class="override-height" /></a>
+                        <br />
+                        AlphaV Camera Power Supply
+                    </div>
+                    <div class="column">
+                        <a href="apex.html"><img src="coreImages/Apex.png" class="override-height" /></a>
+                        <br />
+                        Apex Battery Pack
+                    </div>
+                </div>
                 <br />
-                <a href="&#x2F;multi-headed-attention">Multi-headed attention</a>&nbsp;<span class="small">May 5,
-                    2019</span>
+                <!-- NEXT ROW INCLUDES FLEETMINI AND GT8 -->
+                <div class="row" style="text-align:center">
+                    <div class="column">
+                        <a href="fleetMini.html"><img src="coreImages/FleetMini.png" class="override-height" /></a>
+                        <br />
+                        Fleet Q4 Mini Charger
+                    </div>
+                    <div class="column">
+                        <a href="GT8.html"><img src="coreImages/GT8.png" class="override-height" /></a>
+                        <br />
+                        GT8 Ultra High Speed Charger
+                    </div>
+                </div>
                 <br />
-                <a href="&#x2F;self-attention-layer">A vanilla self-attention layer</a>&nbsp;<span class="small">April
-                    27, 2019</span>
+                <!-- NEXT ROW INCLUDES HELIX AND MACH4 -->
+                <div class="row" style="text-align:center">
+                    <div class="column">
+                        <a href="helix.html"><img src="coreImages/Helix.png" class="override-height" /></a>
+                        <br />
+                        Helix Max Battery Pack
+                    </div>
+                    <div class="column">
+                        <a href="mach4.html"><img src="coreImages/Mach4.png" class="override-height" /></a>
+                        <br />
+                        Mech4 Quad Charger
+                    </div>
+                </div>
                 <br />
+                <!-- NEXT ROW INCLUDES MACHDUAL AND PFQ8 -->
+                <div class="row" style="text-align:center">
+                    <div class="column">
+                        <a href="machDual.html"><img src="coreImages/MachDual.png" class="override-height" /></a>
+                        <br />
+                        Mach4 Dual Charger
+                    </div>
+                    <div class="column">
+                        <a href="PFQ8.html"><img src="coreImages/PFQ8.png" class="override-height" /></a>
+                        <br />
+                        PFQ8 Power Station Charger
+                    </div>
+                </div>
+                <br />
+                <!-- NEXT ROW INCLUDES RENEGADE AND RENEGADECADDY -->
+                <div class="row" style="text-align:center">
+                    <div class="column">
+                        <a href="renegade.html"><img src="coreImages/Renegade.png" class="override-height" /></a>
+                        <br />
+                        Renegade Power Station
+                    </div>
+                    <div class="column">
+                        <a href="renegadeCaddy.html"><img src="coreImages/RenegadeCaddy.png"
+                                class="override-height" /></a>
+                        <br />
+                        Power Station Caddy
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    </body>
+</body>
+
 </html>

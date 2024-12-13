@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nathan Wolf-Sonkin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container header">
+        <div class="main">
+            <div id="logo">
+                <a href="index.html"><img src="NathanLogo.png" class="center"></a>
+                <a id="logo" href="index.html">Nathan Wolf-Sonkin</a>
+            </div>
+            <div class="nav">
+                <a href="projects.html" title="Projects">Projects</a>
+                <a href="resume.pdf" title="Resume" target="_blank">Resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="row" style="text-align:center">
+                <img src="personalProjectImages/fiveBar/ZeroTorqueFiveBarAnimation.gif" width="400" height="350"
+                    class="center" />
+            </div>
+            <h3>5-Bar Linkage</h3>
+            <p>&emsp;&emsp; I designed and implemented a simulation of a 5-bar linkage mechanism in MATLAB, utilizing
+                advanced analytical techniques to enhance both accuracy and computational speed. A key aspect of this
+                work was deriving the equations of motion using the method of projections. This approach simplifies the
+                solution process by projecting the constraint forces to zero via the Jacobian matrix, effectively
+                decoupling the dynamic equations from the constraints and streamlining the computation. </p>
+                
+                <p>&emsp;&emsp;By employing a fully analytical solution, the simulation avoids numerical approximations, resulting in
+                faster and more efficient computations. This makes it particularly well-suited for iterative design
+                studies or real-time applications.</p>
+
+                <div class="row" style="text-align:center">
+                    <img src="personalProjectImages/fiveBar/energy_conserved.png" width="575" height="350"
+                        class="center" />
+                </div>
+
+                <p>&emsp;&emsp;To validate the model, I conducted rigorous energy conservation checks, ensuring that the total energy
+                remained consistent over time. This confirmed the model's adherence to physical laws, demonstrating both
+                its accuracy and stability. It can be seen that while potential energy, rotational kinetic energy, and 
+                translational kinetic energy all fluctuate, the total energy in the system remains constant. This is true when
+                the the torque applied to the system is zero and friction is ignored.</p>
+
+                <p>&emsp;&emsp;This project reflects my ability to integrate advanced mechanical modeling techniques with computational
+                tools, showcasing expertise in dynamic systems and control.</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
